@@ -1,0 +1,70 @@
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: black;
+}
+
+header {
+    height: 85px;
+    font-size: 30px;
+    color: rgb(8, 236, 8);
+    background-color: black;
+}
+
+main {
+    /* background-image: url("vegetable.png"); */
+    /* background-size: cover; */
+    height: 700px;
+    background-color: black;
+}
+
+.blok {
+    float: left;
+    width: 26%;
+    height: 500px;
+    background-color: rgb(8, 236, 8);
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.blok:hover {
+    float: left;
+    width: 26%;
+    height: 500px;
+    background-color: black;
+    color: rgb(8, 236, 8);
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 10px;
+}
+
+.input {
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid cornsilk;
+    border-radius: 2px;
+    width: 150px;
+}
+
+button {
+    background-color: black;
+    color: rgb(8, 236, 8);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 1px;
+    border-color: rgb(8, 236, 8);
+}
+
+button:hover {
+    background-color: rgb(8, 236, 8);
+    color: black;
+}
+
+#wynik {
+    font-size: 30px;
+    color: black;
+}
